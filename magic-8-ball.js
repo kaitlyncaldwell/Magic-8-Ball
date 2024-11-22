@@ -1,6 +1,6 @@
 let username = '';
 const userquestion='?';
-let randomnumber=Math.floor(Math.random()*19);
+let randomnumber=Math.floor(Math.random()*20);
 let eightball='';
 
 username ? console.log(`Hi ${username}!`) : console.log('Hello!');
@@ -72,5 +72,4 @@ switch (randomnumber) {
     default:
         eightball='Something is broken'
 }
-
 console.log(`The answer is...${eightball}`);
